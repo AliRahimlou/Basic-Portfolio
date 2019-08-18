@@ -1,5 +1,5 @@
 name {
-     background-color: aqua;
+     background-color:#4aaaa5;
      color: white;
       }
 
@@ -9,6 +9,31 @@ name {
  }
 
  h2 {
-    color: aqua;
+    color: #4aaaa5;
 
+}
+
+body {
+font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+color: #777777;
+background-color: #ffffff; 
+width: 960px;
+font-size: 18px;
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border: 3px solid #dddddd;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    color: #dddddd;
+}
+
+div {
+    border: 2px solid #dddddd;
+    
 }
