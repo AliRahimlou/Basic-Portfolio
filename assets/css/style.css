@@ -71,8 +71,12 @@ div {
 
 html {
 	background-color:#dddddd;
-	padding: 100;
-	
-    	
+	padding: 100;	
 }
 
+button {
+	padding: 7;
+	width: 70;
+	background-color:#4aaaa5;
+	color: white;
+}
