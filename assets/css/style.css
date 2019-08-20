@@ -16,6 +16,7 @@ header {
 	font-size: 12px;
 	padding: 30;
 	font-family: Georgia, 'Times New Roman', Times, serif;
+	z-index: 99;
 	}
 
 links {
@@ -81,7 +82,27 @@ button {
 	width: 70;
 	background-color:#4aaaa5;
 	color: white;
+	cursor: pointer;
 }
 
+container {
+	position:relative;
+	width: 50%;
+  }
   
+  
+  #one {
+	position: absolute;
+	top: -200%;
+	left: 49.25%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	padding: 20;
+	width: 340;
+	background-color:#4aaaa5;
+	color: white;
+	font-size: 24pt;
+	cursor: pointer;
+	text-align: center;
+  }
   
