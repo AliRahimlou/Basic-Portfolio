@@ -1,26 +1,42 @@
+box {
+	width: 2000;
+	background-color: white;
+	padding: 40px;
+	position: absolute;
+	position:fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 3px solid #cccccc;
+	z-index: 99;
+  }
+
 name {
     background-color:#4aaaa5;
 	color: white;
-	padding: 32;
+	padding: 25;
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size:20pt;	
+	font-size:20pt;
+	position: absolute;
+	left: 0;
+	top: 0;	
  }
 
 header {
 	background-color: #ffffff;
-	border-bottom: 3px solid #cccccc;
 	position:fixed;
 	top: 0%;
-	left: 0px;
-	width: 95%;
+	width: 945px;
 	font-size: 12px;
-	padding: 30;
+	padding: 40;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	z-index: 99;
 	}
 
 links {
 	float: right;
+	position: absolute;
+	right: 11;
+	
 }
 
  .navigation {
@@ -67,7 +83,7 @@ div {
 	border: 2px solid #cccccc;
 	padding: 20px;
     background-color: #ffffff;
-	width: 950px;
+	width: 960px;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;	
 }
 
